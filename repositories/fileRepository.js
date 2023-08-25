@@ -18,3 +18,4 @@ const File = db.define('File', {
 })
 
 module.exports = File
+

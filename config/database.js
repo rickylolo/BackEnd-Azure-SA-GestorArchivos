@@ -1,10 +1,10 @@
 const { Sequelize } = require('sequelize')
 
 //Mis Credenciales e Informacion para mi conexion con MS SQL
-const db = new Sequelize('fileManagement_DB', 'sa', 'admin', {
+const db = new Sequelize('fileManagement_DB', 'sa', '1234', {
   dialect: 'mssql',
   host: 'localhost',
-  port: '1066',
+  port: '8765',
 })
 module.exports.db = db
 
