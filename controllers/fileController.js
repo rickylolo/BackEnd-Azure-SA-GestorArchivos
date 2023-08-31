@@ -28,7 +28,7 @@ const FileController = {
       const fileCreated = await FileManager.create(req)
       res.status(201).send('Archivo registrado correctamente')
     } catch (error) {
-      res.status(500).send('Error interno del servidor')
+      res.status(500).send('Error interno del servidor' + error)
     }
   },
   update: async (req, res) => {
